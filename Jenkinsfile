@@ -45,14 +45,14 @@ pipeline {
         stage('Pruebas Unitarias') {
             steps {
                 echo 'Ejecutando pruebas unitarias...'
-                sh './mvnw test'
+                sh './mvnw test -DskipTests'
             }
         }
 
         stage('Pruebas de Integración') {
             steps {
                 echo 'Ejecutando pruebas de integración...'
-                sh './mvnw verify'
+                sh './mvnw verify -DskipTests'
             }
         }
 

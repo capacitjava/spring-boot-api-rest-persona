@@ -1,0 +1,16 @@
+spring: 
+  application:
+    name: spring-boot-api-rest-persona 
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl 
+    username: System 
+    password: Astrix12
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      dialect: org.hibernate.dialect.OracleDialect
+    show-sql: true
+server:
+  port: 7575

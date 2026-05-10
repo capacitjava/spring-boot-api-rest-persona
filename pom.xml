@@ -126,11 +126,17 @@ PersonaMapperImpl
 			<artifactId>ojdbc11</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+
+<!--AGREGAR DEPENDENCIA LOMBOK PARA JENKINSFILE-->		
 		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<optional>true</optional>
-		</dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.38</version>
+    <scope>provided</scope>
+</dependency>
+
+
 	</dependencies>
 
 <build>

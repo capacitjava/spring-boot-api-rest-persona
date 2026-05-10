@@ -135,7 +135,7 @@ PersonaMapperImpl
     <version>1.18.38</version>
     <scope>provided</scope>
 </dependency>
-
+<!---->    
 
 	</dependencies>
 
@@ -172,7 +172,7 @@ PersonaMapperImpl
 									<!--SE AGREGAN PARA JENKINS FILE-->
 									<artifactId>lombok</artifactId>
 								    <version>1.18.38</version>
-
+                                    <!---->    
 								</path>
 							</annotationProcessorPaths>
 						</configuration>
@@ -190,7 +190,7 @@ PersonaMapperImpl
 									<!--SE AGREGAN PARA JENKINS FILE-->
 									<artifactId>lombok</artifactId>
 									    <version>1.18.38</version>
-									    
+									<!---->    
 								</path>
 							</annotationProcessorPaths>
 						</configuration>
@@ -208,7 +208,7 @@ PersonaMapperImpl
 							
 							<!--SE AGREGAN PARA JENKINS FILE-->
 							<artifactId>lombok</artifactId>
-                            <scope>provided</scope>
+                            <!---->    
                             
 						</exclude>
 					</excludes>
